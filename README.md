@@ -22,10 +22,7 @@ Baby_Groot/
 ├── README.md
 │
 ├── models/
-│   ├── qwen3b/
 │   ├── qwen7b/
-│   ├── qwen14b/
-│   ├── qwen32b/
 │   └── README.md
 │
 ├── env/
@@ -35,8 +32,13 @@ Baby_Groot/
 │   └── README.md
 │
 ├── scripts/
+│   ├── run_agent_read.py
+│   └── README.md
 │
 ├── src/
+│   ├── system_prompts/
+│   ├── tools/
+│   └── tools-integration
 │
 ├── notebooks/
 │
@@ -64,6 +66,8 @@ Voir le fichier `/models/README.md`
 ---
 
 ## Exécution d'un modèle
+### En ligne de commande
+
 Activer l'environnement conda (voir le fichier `/env/README.md`).
 
 Toutes les instructions sont à exécuter depuis la racine.
@@ -80,7 +84,8 @@ Exemple avec la modèle 7B et la quantification `q5_k_m`
 ./third_party/llama.cpp/build/bin/llama-cli -m models/qwen7b/qwen2.5-coder-7b-instruct-q5_k_m.gguf
 ```
 
-Et voilà !
+### Avec interface python
+Voir le fichier `/scripts/README.md`
 ---
 
 ## Paramètres utiles

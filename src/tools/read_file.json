@@ -1,0 +1,19 @@
+{
+  "type": "function",
+  "function": {
+    "name": "read_file",
+    "description": "Read a UTF-8 text file from the project and return its content.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "Relative path from the project root."
+        }
+      },
+      "required": [
+        "file_path"
+      ]
+    }
+  }
+}

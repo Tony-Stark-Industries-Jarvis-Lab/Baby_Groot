@@ -17,5 +17,5 @@ conda install python=3.12 numpy pandas scipy matplotlib jupyterlab ipython reque
 ```
 - Installation des paquets pip
 ```
-pip install transformers huggingface_hub accelerate sentencepiece
+pip install transformers huggingface_hub accelerate sentencepiece openai
 ```
