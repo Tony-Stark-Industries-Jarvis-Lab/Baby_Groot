@@ -1,0 +1,6 @@
+env/*
+!env/README.md
+models/*
+!models/README.md
+third_party/*
+!third_party/README.md
