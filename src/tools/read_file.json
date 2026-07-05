@@ -6,7 +6,7 @@
     "parameters": {
       "type": "object",
       "properties": {
-        "path": {
+        "file_path": {
           "type": "string",
           "description": "Relative path from the project root."
         }
