@@ -86,7 +86,9 @@ Exemple avec la modèle 7B et la quantification `q5_k_m`
 ```
 
 ### Avec interface python
+
 Voir le fichier `/scripts/README.md`
+
 
 ---
 
