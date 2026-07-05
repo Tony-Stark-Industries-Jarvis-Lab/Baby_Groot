@@ -33,12 +33,13 @@ Baby_Groot/
 │
 ├── scripts/
 │   ├── run_agent_read.py
+│   ├── run_agent_write.py
 │   └── README.md
 │
 ├── src/
 │   ├── system_prompts/
 │   ├── tools/
-│   └── tools-integration
+│   └── tools-integration/
 │
 ├── notebooks/
 │
@@ -86,10 +87,12 @@ Exemple avec la modèle 7B et la quantification `q5_k_m`
 
 ### Avec interface python
 Voir le fichier `/scripts/README.md`
+
 ---
 
 ## Paramètres utiles
 
+Peuvent être obsolètes, à vérifier
 ### Taille du contexte
 
 Définir la taille du contexte :

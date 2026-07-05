@@ -22,3 +22,4 @@ python scripts/run_agent_read.py
 | Scripts | Fonctionnalité |
 |-----|-----|
 | `run_agent_read.py` | Lecture de fichier |
+| `run_agent_write.py` | Écriture de fichier |
